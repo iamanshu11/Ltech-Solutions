@@ -996,12 +996,14 @@ section,
 }
 
 .circle {
-    border: 10px solid #e6e6e6;
+    border: 15px solid #fffcfc;
     border-radius: 50%;
     padding: 40px 45px;
     background-color: #002C78;
     color: #fff;
     font-size: 16px;
+    box-shadow: inset 10px 3px 6px #00000029, 0px 3px 6px #00000029;
+    opacity: 1;
 }
 .circle-data-complex{
     font-size: 20px;

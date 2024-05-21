@@ -945,7 +945,7 @@ section,
 
 .contact-form {
     background-color: #D9D9D9;
-    padding: 60px;
+    padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -1036,9 +1036,9 @@ section,
 .data-complex {
     width: 100%;
     padding: 50px 40px;
-    margin: 0px 20px;
     border-radius: 12px;
     box-shadow: 0px 4px 16px rgba(31, 31, 31, 0.1), 0px 8px 24px rgba(32, 32, 32, 0.1), 0px 16px 56px rgba(31, 31, 31, 0.1);
+    background-color: #fff;
 }
 
 .container .topic {
@@ -1161,106 +1161,7 @@ section,
     color: #93D5F2;
 }
 
-
-
-
-
-/*================== success ==========================*/
-
-.success{
-    width: 100%;
-    position: relative;
-    padding-top: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    gap: 80px;
-    background-color: #EDF4FF;
-  }
-  
-  .success-view{
-    display: none;
-  }
-  .success-input{
-    width: 74%;
-  }
-  .success::after
-  {
-    content: "";
-    position: absolute;
-    width: 66%;
-    height: 90%;
-    background-color: #f9f9f9;
-    top: 0;
-    right: 0;
-    margin-top: 40px;
-    /* transform: translateX(-20%); */
-    /* border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px; */
-  }
-  
-  .success-data{
-    position:relative;
-  }
-  
-  .customer-name {
-    color: #1C6398;
-  }
-  .success-data-text img{
-    width: 80%;
-    position: absolute;
-    bottom: 0%;
-    left: 18px;
-    transform: translate(-117%, 1%);
-    /* transform: rotate(99deg); */
-  }
-  
-  .testimonial-carousel img{
-    width: 200px !important;
-    height: 200px;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-  
-  .testimonial-carousel p{
-    margin: auto;
-    padding: 11px 30px;
-    transition: all 0.5s;
-  }
-  
-  .owl-theme .owl-dots {
-    text-align: center;
-    -webkit-tap-highlight-color: transparent;
-  } 
-  .card{
-    width: 100%;
-    text-align: center;
-    padding: 30px 20px;
-    /* filter: blur(8px);
-    -webkit-filter: blur(8px); */
-    border: 4px solid #6E6C83;
-  }
-  
-  .owl-theme .owl-dots .owl-dot span {
-    width: 25px;
-    height: 10px;
-    margin: 5px 7px;
-    display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity 200ms ease;
-    border-radius: 30px;
-  }
-  
-  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #FDA322;
-  }
-  
-  .partner-data img{
-    width: 100%;
-  }
-
-
-  /*==clientele css===*/
+  /*==client css===*/
 .marquee-wrapper
 {
   overflow-x: hidden;
@@ -1291,7 +1192,7 @@ section,
   background: #1d1d1d;
 }
 .SecondRow{
-  animation: Scroll 60s linear infinite;
+  animation: Scroll 20s linear infinite;
   animation-direction: reverse;
 }
 @keyframes Scroll {
@@ -1355,4 +1256,133 @@ section,
     box-shadow: -8px 8px 6px #00000029;
     padding: 10px;
     border-radius: 10px;
+  }
+
+
+  /*================== success ==========================*/
+
+.success{
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .success-view{
+    display: none;
+  }
+  .success-input{
+    width: 80%;
+  }
+  .success::after
+  {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    background-color: #272F76;
+    top: 0;
+    right: 0;
+  }
+  
+  .success-data{
+    position:relative;
+  }
+  
+  .customer-name {
+    color: #1C6398;
+  }
+  .success-data-text img{
+    width: 50%;
+    position: absolute;
+    bottom: 0%;
+    left: 18px;
+  }
+  
+  .success-data-model{
+    margin-left: 250px;
+  }
+  
+  
+  .testimonial-carousel img{
+    width: 200px !important;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-carousel p{
+    margin: auto;
+    padding: 11px 30px;
+    transition: all 0.5s;
+  }
+  
+  .owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+  } 
+  .card-data{
+    width: 100%;
+    text-align: left;
+    padding: 30px 20px;
+  }
+  
+  .owl-theme .owl-dots .owl-dot span {
+    width: 25px;
+    height: 10px;
+    margin: 5px 7px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+  }
+  
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #FDA322;
+  }
+  .hero-section-text{
+    display: none;
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 30%;
+}
+.offers {
+    background: transparent linear-gradient(74deg, rgba(205, 254, 252, 0.46) 0%, rgba(116, 217, 255, 1) 100%) 0% 0% no-repeat padding-box;
+}
+.sales-text{
+    color: #000;
+}
+.content .list label span{
+    color: #000;
+}
+.offers-data{
+    display: none;
+}
+  @media only screen and (max-width:991px){
+    .success-input{
+        width: 95%;
+        margin-right: 10px;
+      }
+      .straight-line{
+        display: none;
+      }
+      .model-items{
+        gap: 20px;
+      }
+      .hero-section-text{
+        display: block;
+      }
+      .hero-display-data{
+        display: none;
+      }
+      .offers-data{
+        display: block;
+        background: transparent linear-gradient(74deg, rgba(205, 254, 252, 0.46) 0%, rgba(116, 217, 255, 1) 100%) 0% 0% no-repeat padding-box;
+    }
+    .offers {
+       display: none;
+    }
   }

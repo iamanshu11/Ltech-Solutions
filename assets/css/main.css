@@ -120,9 +120,9 @@ a {
     color: var(--contrast-color);
     background: var(--accent-color);
     font-size: 14px;
-    padding: 8px 25px;
+    padding: 15px 25px;
     margin: 0 0 0 30px;
-    border-radius: 50px;
+    border-radius: 10px;
     transition: 0.3s;
 }
 
@@ -560,10 +560,10 @@ a {
 }
 
 .footer h4 {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 42px;
     position: relative;
     padding-bottom: 12px;
+    text-align: left;
 }
 
 .footer .footer-links {
@@ -574,6 +574,7 @@ a {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 21px;
 }
 
 .footer .footer-links ul i {
@@ -944,9 +945,10 @@ section,
 }
 
 .contact-form {
-    background-color: #D9D9D9;
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: transparent linear-gradient(74deg, rgb(229 245 244 / 36%) 0%, rgb(65 203 255) 100%) 0% 0% no-repeat padding-box;
+    border-radius: 15px;
 }
 
 .contact-form h2 {
@@ -986,7 +988,7 @@ section,
 
 .box {
     border: 2px solid #004E87;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     padding: 10px 20px;
 }
 
@@ -1212,11 +1214,6 @@ section,
     color: #000;
     margin-right: 0;
   }
-  .owl-carousel .owl-item img
-  {
-    height: 400px;
-    object-fit: cover;
-  }
 }
 
 .faq-accordion .accordion-button{
@@ -1345,21 +1342,37 @@ section,
   .hero-section-text{
     display: none;
   }
-  .owl-carousel .owl-item img {
+  /* .owl-carousel .owl-item img {
     display: block;
     width: 30%;
-}
+} */
 .offers {
     background: transparent linear-gradient(74deg, rgba(205, 254, 252, 0.46) 0%, rgba(116, 217, 255, 1) 100%) 0% 0% no-repeat padding-box;
 }
 .sales-text{
     color: #000;
 }
-.content .list label span{
+/* .content .list label span{
     color: #000;
-}
+} */
 .offers-data{
     display: none;
+}
+.straight-line img{
+    height: 650px;
+}
+.data-img img{
+    width: 40px;
+}
+.card-data img{
+    width: 40px;
+}
+.sol-img img{
+    width: 30% !important;
+    margin-bottom: 20px;
+}
+.footer-data-complex{
+    font-size: 26px;
 }
   @media only screen and (max-width:991px){
     .success-input{
@@ -1384,5 +1397,19 @@ section,
     }
     .offers {
        display: none;
+    }
+    .sales-img img{
+        width: 60px;
+    }
+    .footer-complex{
+        flex-direction: column;
+        font-size: 28px;
+    }
+    .footer-data {
+        text-align: justify;
+    }
+    .social-links{
+        align-items: flex-start;
+        justify-content: flex-start;
     }
   }

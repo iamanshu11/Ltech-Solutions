@@ -945,9 +945,9 @@ section,
 }
 
 .contact-form {
-    padding: 30px;
+    padding: 18px 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background: transparent linear-gradient(74deg, rgb(229 245 244 / 36%) 0%, rgb(65 203 255) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(273deg, rgb(229 245 244 / 36%) 0%, rgb(65 203 255) 100%) 0% 0% no-repeat padding-box;
     border-radius: 15px;
 }
 
@@ -1085,7 +1085,7 @@ section,
 #help:checked~.list label.help,
 #code:checked~.list label.code,
 #about:checked~.list label.about {
-    color: #93D5F2;
+    color: #ffa80a;
 }
 
 .content .slider {
@@ -1160,7 +1160,7 @@ section,
 }
 
 .content .list label:hover {
-    color: #93D5F2;
+    color: #ffa80a;
 }
 
   /*==client css===*/
@@ -1220,7 +1220,7 @@ section,
     background-color:transparent;
     color: rgb(0, 0, 0);
     position: relative;
-    font-size: 24px;
+    font-size: 18px;
   }
   .faq-accordion .accordion-button:focus
   {
@@ -1412,5 +1412,37 @@ section,
         align-items: flex-start;
         justify-content: flex-start;
     }
-
+    .broucher-btn{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .Marquee {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500vw;
+    }
+    .circle{
+        margin-bottom: 10px;
+    }
+  }
+  .broucher-btn{
+    padding-left: 0;
+}
+  .card iframe{
+    border: none;
+  }
+  .nav-pills .nav-link.active{
+background-color:#FDA322 ;
+  }
+  .sales-link{
+    color: #000;
+  }
+  .hero-btn{
+    background-color: #198754;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
   }

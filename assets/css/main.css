@@ -1498,9 +1498,20 @@ section,
 
 .whats-app-btn {
     position: fixed;
-    bottom: 11%;
+    bottom: 2%;
     z-index: 1;
     height: 60px;
     float: right;
-    right: 2%;
+    right: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .whats-app-btn {
+        position: fixed;
+        bottom: 12%;
+        z-index: 1;
+        height: 60px;
+        float: right;
+        right: 5%;
+    }
 }

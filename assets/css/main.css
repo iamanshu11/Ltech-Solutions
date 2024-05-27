@@ -998,6 +998,8 @@ section,
 }
 
 .circle {
+    height: 300px;
+    width: 300px;
     border: 15px solid #fffcfc;
     border-radius: 50%;
     padding: 40px 45px;
@@ -1009,7 +1011,7 @@ section,
 }
 
 .circle-data-complex {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .client-img img {
@@ -1497,6 +1499,18 @@ section,
     right: 5%;
 }
 
+.broucher-btn {
+    padding-left: 0;
+}
+
+.form-email-btn {
+    padding-left: 0;
+}
+
+.circle-data-explore {
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
     .whats-app-btn {
         position: fixed;
@@ -1505,5 +1519,8 @@ section,
         height: 60px;
         float: right;
         right: 8%;
+    }
+    .zoho-img {
+        width: 100px;
     }
 }

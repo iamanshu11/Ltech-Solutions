@@ -1508,7 +1508,7 @@ section,
 @media screen and (max-width: 768px) {
     .whats-app-btn {
         position: fixed;
-        bottom: 10%;
+        bottom: 7%;
         z-index: 1;
         height: 60px;
         float: right;

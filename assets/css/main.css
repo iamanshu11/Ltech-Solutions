@@ -1406,14 +1406,6 @@ section,
 }
 
 @media only screen and (max-width:991px) {
-    .whats-app-btn {
-        position: fixed;
-        bottom: 6%;
-        z-index: 1;
-        height: 60px;
-        float: right;
-        right: 2%;
-    }
     .success-input {
         width: 95%;
         margin-right: 10px;
@@ -1508,10 +1500,10 @@ section,
 @media screen and (max-width: 768px) {
     .whats-app-btn {
         position: fixed;
-        bottom: 7%;
+        bottom: 5%;
         z-index: 1;
         height: 60px;
         float: right;
-        right: 5%;
+        right: 8%;
     }
 }

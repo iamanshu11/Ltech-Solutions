@@ -1498,9 +1498,9 @@ section,
 
 .whats-app-btn {
     position: fixed;
-    bottom: 1%;
+    bottom: 11%;
     z-index: 1;
     height: 60px;
     float: right;
-    right: 5%;
+    right: 2%;
 }
